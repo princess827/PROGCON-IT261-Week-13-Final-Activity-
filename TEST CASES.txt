@@ -1,0 +1,25 @@
+1. Test Case 1: Easy Difficulty
+
+Input: Difficulty: 1, guess the secret number correctly.
+Expected Output: Displays a number range of 1 to 10 and prints Correct! You got it in 1 tries. if correct on the first attempt.
+Purpose: Tests easy difficulty.
+
+2. Test Case 2: Medium Difficulty
+Input: Difficulty: 2, guess too low, then guess correctly.
+Expected Output: Displays a number range of 1 to 50. Prints Too low! Try Again followed by the success message when the correct number is guessed.
+Purpose: Tests medium difficulty and low guesses.
+
+3. Test Case 3: Hard Difficulty
+Input: Difficulty: 3, guess too high, then guess correctly.
+Expected Output: Displays a number range of 1 to 100. Prints Too high! Try again followed by the success message when the correct number is guessed.
+Purpose: Tests hard difficulty and high guesses.
+
+4. Test Case 4: Multiple Attempts
+Input: Difficulty: 1, make three incorrect guesses, then guess correctly.
+Expected Output: Displays the appropriate hint after each incorrect guess and reports Correct! You got it in 4 tries.
+Purpose: Tests the attempt counter.
+
+5. Test Case 5: Play Again
+Input: Complete one game, enter Y, then complete another game and enter N.
+Expected Output: Starts a new game after Y and displays Thank you for playing! after N.
+Purpose: Tests the replay feature.
