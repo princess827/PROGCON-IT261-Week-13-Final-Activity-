@@ -1,3 +1,5 @@
+#FULL CODE OF THE GAME
+
 import random
 def playGame(difficulty):
     if difficulty == 1:
